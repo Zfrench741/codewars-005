@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    background: gray;
+    height: 35px;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-basis: 45%;
+}
+.yerp{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 70%;
+}
+.zebra{
+    display: flex;
+    align-items: center;
+}h2{
+    display: flex;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgba(230,225,214,1)
+}
+h1{
+    padding-top: 250px;
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+section ul li a > img {
+    height: 35px;
+    float: left;
+}
